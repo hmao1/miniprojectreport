@@ -6,8 +6,6 @@ Sean McDonald
 
 9/17/2020
 
-ENG EC 463
-
 # Sensor Mini Project
 
 ### Overview:
