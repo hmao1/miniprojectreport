@@ -22,7 +22,7 @@ ECE Senior Capstone IoT simulator
 
 #### Task 1
 
-We imported data from the client in JSON format into a file data.txt using a simple for loop in our client.py file. Heres how we organized that data in our analyse.py file:
+We imported data from the client in JSON format into a file data.txt using a simple for loop in our client.py file. Here's how we organized that data in our analyse.py file:
 
 ```sh
     with open(file, "r") as f:
