@@ -75,7 +75,7 @@ median of occupancy in lab1 is: 5.0
 variance of occupancy in lab1 is: 4.0798 
 ```
 
-after calulating these statistics, we plotted probability density functions for each data type:
+After calulating these statistics, we plotted probability density functions for each data type:
 
 ![](images/PDFs-miniproject.png)
 
@@ -91,7 +91,7 @@ The interval time plot looks like a normal distribution as the majority of data 
 
 #### Task 3
 
- To detect outliers in the temperature sensor data, we created an algorithm. There were no data points greater than 2 standard deviations away from the mean, so we considered everything outside of one standard deviation to be an outlier. Here is what our code returned for the percentage of bad data points and the new median and varience without them:
+To detect outliers in the temperature sensor data, we created an algorithm. There were no data points greater than 2 standard deviations away from the mean, so we considered everything outside of one standard deviation to be an outlier. Here is what our code returned for the percentage of bad data points and the new median and varience without them:
 
 ```sh
 Considering the data point ONE standard away mean as bad data point, then:
