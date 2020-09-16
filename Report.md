@@ -26,7 +26,7 @@ ECE Senior Capstone IoT simulator
 
 #### Task 1
 
-We imported data from the client in JSON format into a file data.txt using a simple for loop in our analyse.py file. Every new data point fromt the client immidately gets imported into the data.txt file. Heres a snipet of that loop:
+We imported data in JSON format from the client into a file called data.txt using a simple for loop in our analyse.py file. Every new data point from the client immidately gets imported into the data.txt file. Heres a snipet of that loop:
 
 ```sh
     with open(file, "r") as f:
