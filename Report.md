@@ -12,7 +12,7 @@ ENG EC 463
 
 ### Overview:
 
-Our project takes simulated sensor data from a Websockets server and client, imports it to a text file and analyses it with Python numeric libraries and our own algorythm.
+Our project takes simulated sensor data from a Websockets server and client, imports it to a text file and analyses it with Python numeric libraries and our own algorithm.
 
 
 #### Task 0 
@@ -122,6 +122,6 @@ for lab1, if removed the abnormal temperature(1 standard deviation away mean), t
 ```
 #### Task 4
 
-The simulation reflects real world variables that contribute to room tempuratures like occupancy and CO2 levels, however it fails to account for what else it going on in a room, such as a/c units, open/closed windows, seasonal time of year, etc. For the most accurate information with a real world sensor, the server should poll the sensors so the everything can be checked if the data does not seem accurate. For this server, the Python websockets library was easy to use relative to a compiled language. 
+The simulation reflects real world variables that contribute to room temperatures like occupancy and CO2 levels, however it fails to account for what else is going on in a room, such as a/c units, open/closed windows, seasonal time of year, etc. For the most accurate information with a real world sensor, the server should poll the sensors so everything can be checked if the data does not seem accurate. For this server, the Python websockets library was easy to use relative to a compiled language. 
 
 
